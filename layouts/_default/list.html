@@ -13,7 +13,7 @@
 
 {{ .Content }}
 <div style="padding-top: 10px;">
-{{ range.Pages }}
+{{ range.Data.Pages }}
 <article class="post-snippet">
   <h3>
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
@@ -21,7 +21,8 @@
 	<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
 		{{ .Date.Format "January 2, 2006" }}
 	</time>
-  <script src="/js/list.js"></script>
+  <script src="/js/list.js">
+  </script>
 </article>
 {{ end }}
 </div>
