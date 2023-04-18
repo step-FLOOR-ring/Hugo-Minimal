@@ -1,0 +1,13 @@
+name = "Minimal"
+license = "MIT"
+licenselink = "https://github.com/adamrowland02/Hugo-Minimal/blob/main/LICENSE"
+description = "A minimal hugo theme made"
+homepage = "/"
+tags = []
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "Adam Rowland"
+  homepage = "https://adams.place"
+

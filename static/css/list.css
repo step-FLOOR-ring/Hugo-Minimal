@@ -1,0 +1,31 @@
+h3 a {
+  color: #c9c9c9;
+  text-decoration: none;
+}
+h3 a.lightmode {
+  color: #383838;
+  text-decoration: none;
+}
+
+h3 a:hover {
+  text-decoration: underline;
+}
+div {
+  text-align: center;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+@media screen and (max-width: 768px) {
+  div {
+    text-align: left;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  h1, h3 time {
+    margin-left: 50px;
+  }
+  h3, time{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
